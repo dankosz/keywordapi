@@ -1,4 +1,4 @@
-class KEYWORD:
+class KEYWORDCLASS:
     
     def __init__(self, article, source):
         #The article we are referring to
