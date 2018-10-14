@@ -1,5 +1,7 @@
 import urllib.request, urllib.error, urllib.parse
 import json
+import MySQLdb
+import os
 
 from xploreapi import XPLORE
 
@@ -12,25 +14,25 @@ con_file = open("config.json")
 config = json.load(con_file)
 con_file.close()
 
-
+#xploreapy
 xplore = XPLORE(config['apikey'])
 
-#for each article title:
-    #xplore.articleTitle(title)
-    #articleData = json.load(urllib2.urlopen(xplore.callAPI(True)))
-    #if bool(content['articles'][0]['index_terms'])
-        #index terms -> type -> []
-        #for key in content['articles'][0]['index_terms']:
-            #save key and corresponding list of keywords to db
+#db connection
+db = MySQLdb.connect(config['mysql_host'], config['mysql_user'], config['mysql_password'], config['mysql_database'])
 
-xplore.articleNumber("1")
+cursor = db.cursor();
 
+cursor.execute("SELECT title FROM pubinf")
 
-content = json.load(urllib.request.urlopen(xplore.callAPI(False)))
+titles = cursor.fetchall()
+
+for title in titles:
+    xplore.articleTitle(title[0])
+    articleData = json.load(urllib.request.urlopen(xplore.callAPI(False)))
+    if bool(articleData['articles'][0]['index_terms']):
+        for key in articleData['articles'][0]['index_terms']['ieee_terms']['terms']:
+                print(key)
+            
 
 #for x in content['articles'][0]['index_terms']['ieee_terms']['terms']:
   #print(x)
-for key in content['articles'][0]['index_terms']:
-    print(key)
-
-print((content['articles'][0]['index_terms']['ieee_terms']['terms']))
