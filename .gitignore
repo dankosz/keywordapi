@@ -12,3 +12,4 @@ test_elsapy.py
 /elsapy.egg-info
 apikeys.txt
 .pyc
+.bak
