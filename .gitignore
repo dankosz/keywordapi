@@ -11,3 +11,4 @@ test_elsapy.py
 /build
 /elsapy.egg-info
 apikeys.txt
+.pyc
