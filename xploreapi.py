@@ -1,6 +1,6 @@
 import math
-import urllib
-import urllib2
+import urllib.request, urllib.parse, urllib.error
+import urllib.request, urllib.error, urllib.parse
 import xml.etree.ElementTree as ET
 import json
 
@@ -149,7 +149,7 @@ class XPLORE:
         if field in self.allowedSearchFields:
             self.addParameter(field, value)
         else:
-            print "Searches against field " + field + " are not supported"
+            print("Searches against field " + field + " are not supported")
 
 
     # string value   Abstract text to query
@@ -342,7 +342,7 @@ class XPLORE:
         else:
         
             if self.queryProvided is False:
-                print "No search criteria provided"
+                print("No search criteria provided")
         
             data = self.queryAPI(str)
             formattedData = self.formatData(data)
@@ -371,7 +371,7 @@ class XPLORE:
         # boolean query
         elif (self.usingBoolean):
 
-             url += '&querytext=(' + urllib.quote_plus(self.parameters['boolean_text']) + ')'
+             url += '&querytext=(' + urllib.parse.quote_plus(self.parameters['boolean_text']) + ')'
 
         else:
 
@@ -379,12 +379,12 @@ class XPLORE:
 
                 if (self.usingFacet and self.facetApplied is False):
 
-                    url += '&querytext=' + urllib.quote_plus(self.parameters[key]) + '&facet=' + key
+                    url += '&querytext=' + urllib.parse.quote_plus(self.parameters[key]) + '&facet=' + key
                     self.facetApplied = True
 
                 else:
 
-                    url += '&' + key + '=' + urllib.quote_plus(self.parameters[key])
+                    url += '&' + key + '=' + urllib.parse.quote_plus(self.parameters[key])
 
 
         # add in filters
@@ -400,7 +400,7 @@ class XPLORE:
     # return string: Results from API
     def queryAPI(self, url):
 
-        content = urllib2.urlopen(url).read()
+        content = urllib.request.urlopen(url).read()
         return content
 
 

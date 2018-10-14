@@ -1,4 +1,4 @@
-import urllib2
+import urllib.request, urllib.error, urllib.parse
 import json
 
 from xploreapi import XPLORE
@@ -26,11 +26,11 @@ xplore = XPLORE(config['apikey'])
 xplore.articleNumber("1")
 
 
-content = json.load(urllib2.urlopen(xplore.callAPI(False)))
+content = json.load(urllib.request.urlopen(xplore.callAPI(False)))
 
 #for x in content['articles'][0]['index_terms']['ieee_terms']['terms']:
   #print(x)
 for key in content['articles'][0]['index_terms']:
     print(key)
 
-print(content['articles'][0]['index_terms']['ieee_terms']['terms'])
+print((content['articles'][0]['index_terms']['ieee_terms']['terms']))
