@@ -13,3 +13,4 @@ test_elsapy.py
 apikeys.txt
 .pyc
 .bak
+.p.bak
