@@ -1,5 +1,5 @@
 
-class Mapper:
+class keywordMapper:
     
     @staticmethod
     def mapRow(row):
