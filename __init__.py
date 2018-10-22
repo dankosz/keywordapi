@@ -7,7 +7,7 @@ from xploreapi import XPLORE
 from TosDao import TOSDAO
 
 ## Load configuration
-con_file = open(configfile)
+con_file = open("config.json")
 config = json.load(con_file)
 con_file.close()
 
