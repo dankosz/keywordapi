@@ -22,7 +22,7 @@ class TOSDAO:
             publications.append(publication)
         return publications
         
-    def insertKeyword(self, keywords):
+    def insertKeyword(self, keywords, pubinfId):
         for keyword in keywords:
             #check if keyword already exists
             self.dictCursor.execute("SELECT * FROM keywords WHERE keyword = %s", (keyword))
@@ -36,6 +36,28 @@ class TOSDAO:
             else:
                 #if not, insert it
                 self.dictCursor.execute("INSERT INTO keywords (keyword, keywordcount) VALUES(%s, %s)", (keyword, int(0)))
+                #insert into the connector table
+                insertedKeywordId = self.conn.insert_id()
+                self.dictCursor.execute("INSERT INTO keywordpubs (keywordid, objectid) VALUES(%s, %s)", (int(insertedKeywordId), int(pubinfId)))
+                #refresh view (nodes)
+                self.dictCursor.execute("INSERT INTO nodes (rowid, type, label, title) VALUES(%s, %s, %s, %s)", (int(insertedKeywordId), "keyword", keyword, keyword))
+                keyword_node_id = self.conn.insert_id()
+                #refresh edges
+                self.dictCursor.execute("SELECT * FROM nodes WHERE rowid = %s AND type = %s", (keyword, "publ"))
+                publication_node = MAPPER.maprow(self.dictCursor.fetchall()[0])
+                self.dictCursor.execute("INSERT INTO nodes (start, end, type) VALUES(%s, %s, %s)", (int(publication_node.id), int(keyword_node_id), "desc"))
         self.conn.rollback()
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
             
             

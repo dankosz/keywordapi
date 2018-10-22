@@ -25,5 +25,7 @@ for publication in publications:
     xplore.articleTitle(publication.title)
     articleData = json.load(urllib.request.urlopen(xplore.callAPI(False)))
     if bool(articleData['articles'][0]['index_terms']):
-        for key in articleData['articles'][0]['index_terms']['ieee_terms']['terms']:
+        keywords = articleData['articles'][0]['index_terms']['ieee_terms']['terms']
+        for key in keywords:
                 print(key)
+        #tosDao.insertKeyword(keywords, publication.id)
