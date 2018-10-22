@@ -7,5 +7,4 @@ class MAPPER:
         for column in (row):
             print(column)
             setattr(pubinf, column, row[column])
-        print(pubinf)
         return pubinf
