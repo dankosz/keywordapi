@@ -19,7 +19,6 @@ class TOSDAO:
         result_set = self.dictCursor.fetchall()
         for row in result_set:
             publication = MAPPER.mapRow(row)
-            print(publication.title)
             publications.append(publication)
         return publications
         

@@ -21,7 +21,7 @@ publications = tosDao.getArticles()
 
 
 for publication in publications:
-    print("Fetching keywords for publication: " %(publication.title))
+    print("Fetching keywords for publication: %s" (publication.title))
     xplore.articleTitle(publication.title)
     articleData = json.load(urllib.request.urlopen(xplore.callAPI(False)))
     if bool(articleData['articles'][0]['index_terms']):
