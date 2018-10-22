@@ -17,7 +17,7 @@ xplore = XPLORE(config['apikey'])
 #db
 tosDao = TOSDAO(config)
 
-publications = TOSDAO.getArticles()
+publications = tosDao.getArticles()
 
 
 for publication in publications:

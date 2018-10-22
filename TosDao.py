@@ -13,7 +13,7 @@ class TOSDAO:
         #dictcursor
         self.dictCursor = self.conn.cursor(MySQLdb.cursors.DictCursor);
         
-    def getArticles():
+    def getArticles(self):
         publications = []
         self.dictCursor.execute("SELECT * FROM pubinf")
         result_set = cursor.fetchall()
@@ -23,7 +23,7 @@ class TOSDAO:
             publications.append(publication)
         return publications
         
-    def insertKeyword(keywords):
+    def insertKeyword(self, keywords):
         for keyword in keywords:
             #check if keyword already exists
             result_set = self.dictCursor.execute("SELECT * FROM keywords WHERE keyword = %s", (keyword))
