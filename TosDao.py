@@ -16,7 +16,7 @@ class TOSDAO:
     def getArticles(self):
         publications = []
         self.dictCursor.execute("SELECT * FROM pubinf")
-        result_set = cursor.fetchall()
+        result_set = self.dictCursor.fetchall()
         for row in result_set:
             publication = MAPPER.mapRow(row)
             print(publication.title)
@@ -26,7 +26,8 @@ class TOSDAO:
     def insertKeyword(self, keywords):
         for keyword in keywords:
             #check if keyword already exists
-            result_set = self.dictCursor.execute("SELECT * FROM keywords WHERE keyword = %s", (keyword))
+            self.dictCursor.execute("SELECT * FROM keywords WHERE keyword = %s", (keyword))
+            result_set = self.dictCursor.fetchall()
             if bool(result_set[0]):
                 existingKeyword = MAPPER.mapRow(result_set[0])
                 keywordCount = existingKeyword.keywordcount + 1 
