@@ -5,11 +5,7 @@ from mapper import MAPPER
 
 class TOSDAO:
     
-    def __init__(self, configfile):
-        ## Load configuration
-        con_file = open(configfile)
-        config = json.load(con_file)
-        con_file.close()
+    def __init__(self, config):
         #db connection
         self.conn = MySQLdb.connect(config['mysql_host'], 
         config['mysql_user'], config['mysql_password'], 

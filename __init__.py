@@ -6,11 +6,16 @@ import os
 from xploreapi import XPLORE
 from TosDao import TOSDAO
 
+## Load configuration
+con_file = open(configfile)
+config = json.load(con_file)
+con_file.close()
+
 #xploreapi
 xplore = XPLORE(config['apikey'])
 
 #db
-tosDao = TOSDAO("config.json")
+tosDao = TOSDAO(config)
 
 publications = TOSDAO.getArticles()
 
