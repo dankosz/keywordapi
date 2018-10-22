@@ -3,7 +3,7 @@ class MAPPER:
     
     @staticmethod
     def mapRow(row):
-        pubinf
+        pubinf = {}
         for column in (row):
             print(column)
             pubinf.column = row[column]
