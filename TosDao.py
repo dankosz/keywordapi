@@ -53,7 +53,7 @@ class TOSDAO:
                     keyword_node_id = self.conn.insert_id()
                     #refresh edges
                     self.dictCursor.execute("SELECT * FROM nodes WHERE rowid = %s AND type = %s", (keyword, "publ"))
-                    publication_node = MAPPER.maprow(self.dictCursor.fetchall()[0])
+                    publication_node = MAPPER.mapRow(self.dictCursor.fetchall()[0])
                     print("inserting into nodes start: %s, end: %s, type: desc", (int(publication_node.id), int(keyword_node_id)))
                     self.dictCursor.execute("INSERT INTO nodes (start, end, type) VALUES(%s, %s, %s)", (int(publication_node.id), int(keyword_node_id), "desc"))
         except:
