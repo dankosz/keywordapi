@@ -37,4 +37,4 @@ except urllib.error.HTTPError as e:
         print(e.code)
     if hasattr(e,'reason'):
         print(e.reason)
-    print("Inserted %s records from publications", int(count))
+    print("Inserted ", int(count)," records from publications")
