@@ -43,7 +43,7 @@ class TOSDAO:
                     self.dictCursor.execute("INSERT INTO keywords (keyword, keywordcount) VALUES(%s, %s)" (keyword, int(0)))
                     #insert into the connector table
                     insertedKeywordId = self.conn.insert_id()
-                    print("inserting into keywordpubs keywordId: %s, pubinfId: %s" (int(insertedKeywordId) int(pubinfId)))
+                    print("inserting into keywordpubs keywordId: %s, pubinfId: %s" (int(insertedKeywordId), int(pubinfId)))
                     self.dictCursor.execute("INSERT INTO keywordpubs (keywordid, objectid) VALUES(%s, %s)" (int(insertedKeywordId), int(pubinfId)))
                     #refresh view (nodes)
                     print("inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s" (int(insertedKeywordId), keyword, keyword))
