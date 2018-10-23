@@ -34,6 +34,7 @@ class TOSDAO:
                 if bool(result_set):
                     print("keyword %s already exists in db", (keyword))
                     existingKeyword = MAPPER.mapRow(result_set[0])
+                    print(existingKeyword)
                     keywordCount = existingKeyword.keywordcount + 1 
                     keywordId = existingKeyword.id
                     #if yes, increment the keywordCount
