@@ -29,5 +29,5 @@ try:
             for key in keywords:
                 print(key)
             tosDao.insertKeyword(keywords, publication.id)
-except urllib2.HTTPError, e:
+except urllib.HTTPError as e:
     print e.fp.read()
