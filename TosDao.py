@@ -48,13 +48,13 @@ class TOSDAO:
                     print("inserting into keywordpubs keywordId: %s, pubinfId: %s", (int(insertedKeywordId), int(pubinfId)))
                     self.dictCursor.execute("INSERT INTO keywordpubs (keywordid, id) VALUES(%s, %s)", (int(insertedKeywordId), int(pubinfId)))
                     #refresh view (nodes)
-                    print("inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s" (int(insertedKeywordId), keyword, keyword))
+                    print("inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s", (int(insertedKeywordId), keyword, keyword))
                     self.dictCursor.execute("INSERT INTO nodes (rowid, type, label, title) VALUES(%s, %s, %s, %s)", (int(insertedKeywordId), "keyword", keyword, keyword))
                     keyword_node_id = self.conn.insert_id()
                     #refresh edges
                     self.dictCursor.execute("SELECT * FROM nodes WHERE rowid = %s AND type = %s", (keyword, "publ"))
                     publication_node = MAPPER.maprow(self.dictCursor.fetchall()[0])
-                    print("inserting into nodes start: %s, end: %s, type: desc" (int(publication_node.id), int(keyword_node_id)))
+                    print("inserting into nodes start: %s, end: %s, type: desc", (int(publication_node.id), int(keyword_node_id)))
                     self.dictCursor.execute("INSERT INTO nodes (start, end, type) VALUES(%s, %s, %s)", (int(publication_node.id), int(keyword_node_id), "desc"))
         except:
             print("Unexpected error, rolling back:", sys.exc_info()[0])
