@@ -11,6 +11,7 @@ class TOSDAO:
         self.conn = MySQLdb.connect(config['mysql_host'], 
         config['mysql_user'], config['mysql_password'], 
         config['mysql_database'])
+        conn.autocommit = True
         #dictcursor
         self.dictCursor = self.conn.cursor(MySQLdb.cursors.DictCursor);
         
@@ -27,7 +28,7 @@ class TOSDAO:
         try:
             for keyword in keywords:
                 #check if keyword already exists
-                self.dictCursor.execute("SELECT * FROM keywords WHERE keyword = %s", (keyword.str()))
+                self.dictCursor.execute("SELECT * FROM keywords WHERE keyword = %(keyword)s", {'keyword': keyword})
                 result_set = self.dictCursor.fetchall()
                 if bool(result_set[0]):
                     print("keyword %s already exists in db" (keyword))
