@@ -11,7 +11,7 @@ class TOSDAO:
         self.conn = MySQLdb.connect(config['mysql_host'], 
         config['mysql_user'], config['mysql_password'], 
         config['mysql_database'])
-        conn.autocommit = True
+        self.conn.autocommit = True
         #dictcursor
         self.dictCursor = self.conn.cursor(MySQLdb.cursors.DictCursor);
         
