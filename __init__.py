@@ -33,8 +33,8 @@ try:
             tosDao.insertKeyword(keywords, publication.id)
             count = count+1
 except urllib.error.HTTPError as e:
-		if hasattr(e,'code'):
-			print(e.code)
-		if hasattr(e,'reason'):
-			print(e.reason)
-        print("Inserted %s records from publications", int(count))
+	if hasattr(e,'code'):
+		print(e.code)
+	if hasattr(e,'reason'):
+		print(e.reason)
+    print("Inserted %s records from publications", int(count))
