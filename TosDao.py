@@ -56,8 +56,8 @@ class TOSDAO:
                     pub_res = self.dictCursor.fetchall()
                     print(pub_res)
                     publication_node = MAPPER.mapRow(pub_res[0])
-                    print("inserting into nodes start: %s, end: %s, type: desc", (int(publication_node.id), int(keyword_node_id)))
-                    self.dictCursor.execute("INSERT INTO nodes (start, end, type) VALUES(%s, %s, %s)", (int(publication_node.id), int(keyword_node_id), "desc"))
+                    print("inserting into edges start: %s, end: %s, type: desc", (int(publication_node.id), int(keyword_node_id)))
+                    self.dictCursor.execute("INSERT INTO edges (start, end, type) VALUES(%s, %s, %s)", (int(publication_node.id), int(keyword_node_id), "desc"))
         except:
             print("Unexpected error, rolling back:", sys.exc_info()[0])
             self.conn.rollback()
