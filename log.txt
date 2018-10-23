@@ -1,0 +1,1079 @@
+$ python __init__.py 
+Fetching keywords for publication:  Impact of Power Control on the Performance of Ad Hoc Wireless Networks
+Access protocols
+Media Access Protocol
+Multicast protocols
+Power control
+Routing protocols
+Throughput
+Time division multiple access
+Vectors
+Wireless application protocol
+Wireless networks
+()
+inserting keyword into keywords table: %s Access protocols
+inserting into keywordpubs keywordId: %s, pubinfId: %s (420, 1)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (420, 'Access protocols', 'Access protocols')
+({'id': 1, 'rowid': 1, 'type': 'publ', 'label': 'Impact of Power Control on t...', 'title': 'Impact of Power Control on the Performance of Ad Hoc Wireless Networks'},)
+inserting into edges start: %s, end: %s, type: desc (1, 7983)
+()
+inserting keyword into keywords table: %s Media Access Protocol
+inserting into keywordpubs keywordId: %s, pubinfId: %s (421, 1)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (421, 'Media Access Protocol', 'Media Access Protocol')
+({'id': 1, 'rowid': 1, 'type': 'publ', 'label': 'Impact of Power Control on t...', 'title': 'Impact of Power Control on the Performance of Ad Hoc Wireless Networks'},)
+inserting into edges start: %s, end: %s, type: desc (1, 7984)
+()
+inserting keyword into keywords table: %s Multicast protocols
+inserting into keywordpubs keywordId: %s, pubinfId: %s (422, 1)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (422, 'Multicast protocols', 'Multicast protocols')
+({'id': 1, 'rowid': 1, 'type': 'publ', 'label': 'Impact of Power Control on t...', 'title': 'Impact of Power Control on the Performance of Ad Hoc Wireless Networks'},)
+inserting into edges start: %s, end: %s, type: desc (1, 7985)
+({'id': 3, 'keyword': 'Power Control', 'keywordcount': 0},)
+keyword %s already exists in db Power control
+Updating keyword with keywordcount: %s 1
+()
+inserting keyword into keywords table: %s Routing protocols
+inserting into keywordpubs keywordId: %s, pubinfId: %s (423, 1)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (423, 'Routing protocols', 'Routing protocols')
+({'id': 1, 'rowid': 1, 'type': 'publ', 'label': 'Impact of Power Control on t...', 'title': 'Impact of Power Control on the Performance of Ad Hoc Wireless Networks'},)
+inserting into edges start: %s, end: %s, type: desc (1, 7986)
+({'id': 118, 'keyword': 'throughput', 'keywordcount': 0},)
+keyword %s already exists in db Throughput
+Updating keyword with keywordcount: %s 1
+()
+inserting keyword into keywords table: %s Time division multiple access
+inserting into keywordpubs keywordId: %s, pubinfId: %s (424, 1)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (424, 'Time division multiple access', 'Time division multiple access')
+({'id': 1, 'rowid': 1, 'type': 'publ', 'label': 'Impact of Power Control on t...', 'title': 'Impact of Power Control on the Performance of Ad Hoc Wireless Networks'},)
+inserting into edges start: %s, end: %s, type: desc (1, 7987)
+()
+inserting keyword into keywords table: %s Vectors
+inserting into keywordpubs keywordId: %s, pubinfId: %s (425, 1)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (425, 'Vectors', 'Vectors')
+({'id': 1, 'rowid': 1, 'type': 'publ', 'label': 'Impact of Power Control on t...', 'title': 'Impact of Power Control on the Performance of Ad Hoc Wireless Networks'},)
+inserting into edges start: %s, end: %s, type: desc (1, 7988)
+()
+inserting keyword into keywords table: %s Wireless application protocol
+inserting into keywordpubs keywordId: %s, pubinfId: %s (426, 1)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (426, 'Wireless application protocol', 'Wireless application protocol')
+({'id': 1, 'rowid': 1, 'type': 'publ', 'label': 'Impact of Power Control on t...', 'title': 'Impact of Power Control on the Performance of Ad Hoc Wireless Networks'},)
+inserting into edges start: %s, end: %s, type: desc (1, 7989)
+({'id': 7, 'keyword': 'wireless networks', 'keywordcount': 0},)
+keyword %s already exists in db Wireless networks
+Updating keyword with keywordcount: %s 1
+Fetching keywords for publication:  Minimizing Delay for Multicast-Streaming in Wireless Networks with Network Coding
+Computational complexity
+Decoding
+Delay
+Dynamic scheduling
+Network coding
+Performance gain
+Processor scheduling
+Queueing analysis
+Throughput
+Wireless networks
+()
+inserting keyword into keywords table: %s Computational complexity
+inserting into keywordpubs keywordId: %s, pubinfId: %s (427, 2)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (427, 'Computational complexity', 'Computational complexity')
+({'id': 2, 'rowid': 2, 'type': 'publ', 'label': 'Minimizing Delay for Multica...', 'title': 'Minimizing Delay for Multicast-Streaming in Wireless Networks with Network Coding'},)
+inserting into edges start: %s, end: %s, type: desc (2, 7990)
+()
+inserting keyword into keywords table: %s Decoding
+inserting into keywordpubs keywordId: %s, pubinfId: %s (428, 2)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (428, 'Decoding', 'Decoding')
+({'id': 2, 'rowid': 2, 'type': 'publ', 'label': 'Minimizing Delay for Multica...', 'title': 'Minimizing Delay for Multicast-Streaming in Wireless Networks with Network Coding'},)
+inserting into edges start: %s, end: %s, type: desc (2, 7991)
+({'id': 16, 'keyword': 'Delay', 'keywordcount': 0},)
+keyword %s already exists in db Delay
+Updating keyword with keywordcount: %s 1
+()
+inserting keyword into keywords table: %s Dynamic scheduling
+inserting into keywordpubs keywordId: %s, pubinfId: %s (429, 2)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (429, 'Dynamic scheduling', 'Dynamic scheduling')
+({'id': 2, 'rowid': 2, 'type': 'publ', 'label': 'Minimizing Delay for Multica...', 'title': 'Minimizing Delay for Multicast-Streaming in Wireless Networks with Network Coding'},)
+inserting into edges start: %s, end: %s, type: desc (2, 7992)
+({'id': 4, 'keyword': 'Network Coding', 'keywordcount': 0},)
+keyword %s already exists in db Network coding
+Updating keyword with keywordcount: %s 1
+()
+inserting keyword into keywords table: %s Performance gain
+inserting into keywordpubs keywordId: %s, pubinfId: %s (430, 2)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (430, 'Performance gain', 'Performance gain')
+({'id': 2, 'rowid': 2, 'type': 'publ', 'label': 'Minimizing Delay for Multica...', 'title': 'Minimizing Delay for Multicast-Streaming in Wireless Networks with Network Coding'},)
+inserting into edges start: %s, end: %s, type: desc (2, 7993)
+()
+inserting keyword into keywords table: %s Processor scheduling
+inserting into keywordpubs keywordId: %s, pubinfId: %s (431, 2)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (431, 'Processor scheduling', 'Processor scheduling')
+({'id': 2, 'rowid': 2, 'type': 'publ', 'label': 'Minimizing Delay for Multica...', 'title': 'Minimizing Delay for Multicast-Streaming in Wireless Networks with Network Coding'},)
+inserting into edges start: %s, end: %s, type: desc (2, 7994)
+({'id': 284, 'keyword': 'Queueing analysis', 'keywordcount': 0},)
+keyword %s already exists in db Queueing analysis
+Updating keyword with keywordcount: %s 1
+({'id': 118, 'keyword': 'throughput', 'keywordcount': 1},)
+keyword %s already exists in db Throughput
+Updating keyword with keywordcount: %s 2
+({'id': 7, 'keyword': 'wireless networks', 'keywordcount': 1},)
+keyword %s already exists in db Wireless networks
+Updating keyword with keywordcount: %s 2
+Fetching keywords for publication:  Optimal Hopping in Ad Hoc Wireless Networks
+Ad hoc networks
+Bit error rate
+Energy consumption
+Optimization
+Relays
+Spread spectrum communication
+({'id': 54, 'keyword': 'Ad hoc networks', 'keywordcount': 0},)
+keyword %s already exists in db Ad hoc networks
+Updating keyword with keywordcount: %s 1
+()
+inserting keyword into keywords table: %s Bit error rate
+inserting into keywordpubs keywordId: %s, pubinfId: %s (432, 3)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (432, 'Bit error rate', 'Bit error rate')
+({'id': 3, 'rowid': 3, 'type': 'publ', 'label': 'Optimal Hopping in Ad Hoc Wi...', 'title': 'Optimal Hopping in Ad Hoc Wireless Networks'},)
+inserting into edges start: %s, end: %s, type: desc (3, 7995)
+()
+inserting keyword into keywords table: %s Energy consumption
+inserting into keywordpubs keywordId: %s, pubinfId: %s (433, 3)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (433, 'Energy consumption', 'Energy consumption')
+({'id': 3, 'rowid': 3, 'type': 'publ', 'label': 'Optimal Hopping in Ad Hoc Wi...', 'title': 'Optimal Hopping in Ad Hoc Wireless Networks'},)
+inserting into edges start: %s, end: %s, type: desc (3, 7996)
+({'id': 28, 'keyword': 'Optimization', 'keywordcount': 0},)
+keyword %s already exists in db Optimization
+Updating keyword with keywordcount: %s 1
+()
+inserting keyword into keywords table: %s Relays
+inserting into keywordpubs keywordId: %s, pubinfId: %s (434, 3)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (434, 'Relays', 'Relays')
+({'id': 3, 'rowid': 3, 'type': 'publ', 'label': 'Optimal Hopping in Ad Hoc Wi...', 'title': 'Optimal Hopping in Ad Hoc Wireless Networks'},)
+inserting into edges start: %s, end: %s, type: desc (3, 7997)
+()
+inserting keyword into keywords table: %s Spread spectrum communication
+inserting into keywordpubs keywordId: %s, pubinfId: %s (435, 3)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (435, 'Spread spectrum communication', 'Spread spectrum communication')
+({'id': 3, 'rowid': 3, 'type': 'publ', 'label': 'Optimal Hopping in Ad Hoc Wi...', 'title': 'Optimal Hopping in Ad Hoc Wireless Networks'},)
+inserting into edges start: %s, end: %s, type: desc (3, 7998)
+Fetching keywords for publication:  Layered Internet Video Engineering (LIVE): Network-Assisted Bandwidth Sharing and Transient Loss Protection for Scalable Video Streaming
+Bandwidth
+Delay
+Feedback
+Forward error correction
+IP networks
+Protection
+Rate-distortion
+Static VAr compensators
+Streaming media
+Video sharing
+()
+inserting keyword into keywords table: %s Bandwidth
+inserting into keywordpubs keywordId: %s, pubinfId: %s (436, 4)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (436, 'Bandwidth', 'Bandwidth')
+({'id': 4, 'rowid': 4, 'type': 'publ', 'label': 'Layered Internet Video Engin...', 'title': 'Layered Internet Video Engineering (LIVE): Network-Assisted Bandwidth Sharing and Transient Loss Protection for Scalable Video Streaming'},)
+inserting into edges start: %s, end: %s, type: desc (4, 7999)
+({'id': 16, 'keyword': 'Delay', 'keywordcount': 1},)
+keyword %s already exists in db Delay
+Updating keyword with keywordcount: %s 2
+()
+inserting keyword into keywords table: %s Feedback
+inserting into keywordpubs keywordId: %s, pubinfId: %s (437, 4)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (437, 'Feedback', 'Feedback')
+({'id': 4, 'rowid': 4, 'type': 'publ', 'label': 'Layered Internet Video Engin...', 'title': 'Layered Internet Video Engineering (LIVE): Network-Assisted Bandwidth Sharing and Transient Loss Protection for Scalable Video Streaming'},)
+inserting into edges start: %s, end: %s, type: desc (4, 8000)
+()
+inserting keyword into keywords table: %s Forward error correction
+inserting into keywordpubs keywordId: %s, pubinfId: %s (438, 4)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (438, 'Forward error correction', 'Forward error correction')
+({'id': 4, 'rowid': 4, 'type': 'publ', 'label': 'Layered Internet Video Engin...', 'title': 'Layered Internet Video Engineering (LIVE): Network-Assisted Bandwidth Sharing and Transient Loss Protection for Scalable Video Streaming'},)
+inserting into edges start: %s, end: %s, type: desc (4, 8001)
+()
+inserting keyword into keywords table: %s IP networks
+inserting into keywordpubs keywordId: %s, pubinfId: %s (439, 4)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (439, 'IP networks', 'IP networks')
+({'id': 4, 'rowid': 4, 'type': 'publ', 'label': 'Layered Internet Video Engin...', 'title': 'Layered Internet Video Engineering (LIVE): Network-Assisted Bandwidth Sharing and Transient Loss Protection for Scalable Video Streaming'},)
+inserting into edges start: %s, end: %s, type: desc (4, 8002)
+()
+inserting keyword into keywords table: %s Protection
+inserting into keywordpubs keywordId: %s, pubinfId: %s (440, 4)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (440, 'Protection', 'Protection')
+({'id': 4, 'rowid': 4, 'type': 'publ', 'label': 'Layered Internet Video Engin...', 'title': 'Layered Internet Video Engineering (LIVE): Network-Assisted Bandwidth Sharing and Transient Loss Protection for Scalable Video Streaming'},)
+inserting into edges start: %s, end: %s, type: desc (4, 8003)
+()
+inserting keyword into keywords table: %s Rate-distortion
+inserting into keywordpubs keywordId: %s, pubinfId: %s (441, 4)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (441, 'Rate-distortion', 'Rate-distortion')
+({'id': 4, 'rowid': 4, 'type': 'publ', 'label': 'Layered Internet Video Engin...', 'title': 'Layered Internet Video Engineering (LIVE): Network-Assisted Bandwidth Sharing and Transient Loss Protection for Scalable Video Streaming'},)
+inserting into edges start: %s, end: %s, type: desc (4, 8004)
+()
+inserting keyword into keywords table: %s Static VAr compensators
+inserting into keywordpubs keywordId: %s, pubinfId: %s (442, 4)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (442, 'Static VAr compensators', 'Static VAr compensators')
+({'id': 4, 'rowid': 4, 'type': 'publ', 'label': 'Layered Internet Video Engin...', 'title': 'Layered Internet Video Engineering (LIVE): Network-Assisted Bandwidth Sharing and Transient Loss Protection for Scalable Video Streaming'},)
+inserting into edges start: %s, end: %s, type: desc (4, 8005)
+()
+inserting keyword into keywords table: %s Streaming media
+inserting into keywordpubs keywordId: %s, pubinfId: %s (443, 4)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (443, 'Streaming media', 'Streaming media')
+({'id': 4, 'rowid': 4, 'type': 'publ', 'label': 'Layered Internet Video Engin...', 'title': 'Layered Internet Video Engineering (LIVE): Network-Assisted Bandwidth Sharing and Transient Loss Protection for Scalable Video Streaming'},)
+inserting into edges start: %s, end: %s, type: desc (4, 8006)
+()
+inserting keyword into keywords table: %s Video sharing
+inserting into keywordpubs keywordId: %s, pubinfId: %s (444, 4)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (444, 'Video sharing', 'Video sharing')
+({'id': 4, 'rowid': 4, 'type': 'publ', 'label': 'Layered Internet Video Engin...', 'title': 'Layered Internet Video Engineering (LIVE): Network-Assisted Bandwidth Sharing and Transient Loss Protection for Scalable Video Streaming'},)
+inserting into edges start: %s, end: %s, type: desc (4, 8007)
+Fetching keywords for publication:  Eclipse Attacks on Overlay Networks: Threats and Defenses
+Advertising
+Application software
+Cathode ray tubes
+Computer crime
+Computer science
+Control systems
+Operating systems
+Peer to peer computing
+Robustness
+Software systems
+()
+inserting keyword into keywords table: %s Advertising
+inserting into keywordpubs keywordId: %s, pubinfId: %s (445, 5)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (445, 'Advertising', 'Advertising')
+({'id': 5, 'rowid': 5, 'type': 'publ', 'label': 'Eclipse Attacks on Overlay N...', 'title': 'Eclipse Attacks on Overlay Networks: Threats and Defenses'},)
+inserting into edges start: %s, end: %s, type: desc (5, 8008)
+()
+inserting keyword into keywords table: %s Application software
+inserting into keywordpubs keywordId: %s, pubinfId: %s (446, 5)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (446, 'Application software', 'Application software')
+({'id': 5, 'rowid': 5, 'type': 'publ', 'label': 'Eclipse Attacks on Overlay N...', 'title': 'Eclipse Attacks on Overlay Networks: Threats and Defenses'},)
+inserting into edges start: %s, end: %s, type: desc (5, 8009)
+()
+inserting keyword into keywords table: %s Cathode ray tubes
+inserting into keywordpubs keywordId: %s, pubinfId: %s (447, 5)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (447, 'Cathode ray tubes', 'Cathode ray tubes')
+({'id': 5, 'rowid': 5, 'type': 'publ', 'label': 'Eclipse Attacks on Overlay N...', 'title': 'Eclipse Attacks on Overlay Networks: Threats and Defenses'},)
+inserting into edges start: %s, end: %s, type: desc (5, 8010)
+()
+inserting keyword into keywords table: %s Computer crime
+inserting into keywordpubs keywordId: %s, pubinfId: %s (448, 5)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (448, 'Computer crime', 'Computer crime')
+({'id': 5, 'rowid': 5, 'type': 'publ', 'label': 'Eclipse Attacks on Overlay N...', 'title': 'Eclipse Attacks on Overlay Networks: Threats and Defenses'},)
+inserting into edges start: %s, end: %s, type: desc (5, 8011)
+()
+inserting keyword into keywords table: %s Computer science
+inserting into keywordpubs keywordId: %s, pubinfId: %s (449, 5)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (449, 'Computer science', 'Computer science')
+({'id': 5, 'rowid': 5, 'type': 'publ', 'label': 'Eclipse Attacks on Overlay N...', 'title': 'Eclipse Attacks on Overlay Networks: Threats and Defenses'},)
+inserting into edges start: %s, end: %s, type: desc (5, 8012)
+()
+inserting keyword into keywords table: %s Control systems
+inserting into keywordpubs keywordId: %s, pubinfId: %s (450, 5)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (450, 'Control systems', 'Control systems')
+({'id': 5, 'rowid': 5, 'type': 'publ', 'label': 'Eclipse Attacks on Overlay N...', 'title': 'Eclipse Attacks on Overlay Networks: Threats and Defenses'},)
+inserting into edges start: %s, end: %s, type: desc (5, 8013)
+()
+inserting keyword into keywords table: %s Operating systems
+inserting into keywordpubs keywordId: %s, pubinfId: %s (451, 5)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (451, 'Operating systems', 'Operating systems')
+({'id': 5, 'rowid': 5, 'type': 'publ', 'label': 'Eclipse Attacks on Overlay N...', 'title': 'Eclipse Attacks on Overlay Networks: Threats and Defenses'},)
+inserting into edges start: %s, end: %s, type: desc (5, 8014)
+()
+inserting keyword into keywords table: %s Peer to peer computing
+inserting into keywordpubs keywordId: %s, pubinfId: %s (452, 5)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (452, 'Peer to peer computing', 'Peer to peer computing')
+({'id': 5, 'rowid': 5, 'type': 'publ', 'label': 'Eclipse Attacks on Overlay N...', 'title': 'Eclipse Attacks on Overlay Networks: Threats and Defenses'},)
+inserting into edges start: %s, end: %s, type: desc (5, 8015)
+()
+inserting keyword into keywords table: %s Robustness
+inserting into keywordpubs keywordId: %s, pubinfId: %s (453, 5)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (453, 'Robustness', 'Robustness')
+({'id': 5, 'rowid': 5, 'type': 'publ', 'label': 'Eclipse Attacks on Overlay N...', 'title': 'Eclipse Attacks on Overlay Networks: Threats and Defenses'},)
+inserting into edges start: %s, end: %s, type: desc (5, 8016)
+()
+inserting keyword into keywords table: %s Software systems
+inserting into keywordpubs keywordId: %s, pubinfId: %s (454, 5)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (454, 'Software systems', 'Software systems')
+({'id': 5, 'rowid': 5, 'type': 'publ', 'label': 'Eclipse Attacks on Overlay N...', 'title': 'Eclipse Attacks on Overlay Networks: Threats and Defenses'},)
+inserting into edges start: %s, end: %s, type: desc (5, 8017)
+Fetching keywords for publication:  Theoretical Results on Base Station Movement Problem for Sensor Network
+Approximation algorithms
+Base stations
+Communications Society
+Cost function
+Fasteners
+Mobile computing
+Network topology
+Routing
+Telecommunication traffic
+USA Councils
+({'id': 167, 'keyword': 'Approximation Algorithms', 'keywordcount': 0},)
+keyword %s already exists in db Approximation algorithms
+Updating keyword with keywordcount: %s 1
+()
+inserting keyword into keywords table: %s Base stations
+inserting into keywordpubs keywordId: %s, pubinfId: %s (455, 6)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (455, 'Base stations', 'Base stations')
+({'id': 6, 'rowid': 6, 'type': 'publ', 'label': 'Theoretical Results on Base ...', 'title': 'Theoretical Results on Base Station Movement Problem for Sensor Network'},)
+inserting into edges start: %s, end: %s, type: desc (6, 8018)
+()
+inserting keyword into keywords table: %s Communications Society
+inserting into keywordpubs keywordId: %s, pubinfId: %s (456, 6)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (456, 'Communications Society', 'Communications Society')
+({'id': 6, 'rowid': 6, 'type': 'publ', 'label': 'Theoretical Results on Base ...', 'title': 'Theoretical Results on Base Station Movement Problem for Sensor Network'},)
+inserting into edges start: %s, end: %s, type: desc (6, 8019)
+()
+inserting keyword into keywords table: %s Cost function
+inserting into keywordpubs keywordId: %s, pubinfId: %s (457, 6)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (457, 'Cost function', 'Cost function')
+({'id': 6, 'rowid': 6, 'type': 'publ', 'label': 'Theoretical Results on Base ...', 'title': 'Theoretical Results on Base Station Movement Problem for Sensor Network'},)
+inserting into edges start: %s, end: %s, type: desc (6, 8020)
+()
+inserting keyword into keywords table: %s Fasteners
+inserting into keywordpubs keywordId: %s, pubinfId: %s (458, 6)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (458, 'Fasteners', 'Fasteners')
+({'id': 6, 'rowid': 6, 'type': 'publ', 'label': 'Theoretical Results on Base ...', 'title': 'Theoretical Results on Base Station Movement Problem for Sensor Network'},)
+inserting into edges start: %s, end: %s, type: desc (6, 8021)
+()
+inserting keyword into keywords table: %s Mobile computing
+inserting into keywordpubs keywordId: %s, pubinfId: %s (459, 6)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (459, 'Mobile computing', 'Mobile computing')
+({'id': 6, 'rowid': 6, 'type': 'publ', 'label': 'Theoretical Results on Base ...', 'title': 'Theoretical Results on Base Station Movement Problem for Sensor Network'},)
+inserting into edges start: %s, end: %s, type: desc (6, 8022)
+()
+inserting keyword into keywords table: %s Network topology
+inserting into keywordpubs keywordId: %s, pubinfId: %s (460, 6)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (460, 'Network topology', 'Network topology')
+({'id': 6, 'rowid': 6, 'type': 'publ', 'label': 'Theoretical Results on Base ...', 'title': 'Theoretical Results on Base Station Movement Problem for Sensor Network'},)
+inserting into edges start: %s, end: %s, type: desc (6, 8023)
+({'id': 84, 'keyword': 'Routing', 'keywordcount': 0},)
+keyword %s already exists in db Routing
+Updating keyword with keywordcount: %s 1
+()
+inserting keyword into keywords table: %s Telecommunication traffic
+inserting into keywordpubs keywordId: %s, pubinfId: %s (461, 6)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (461, 'Telecommunication traffic', 'Telecommunication traffic')
+({'id': 6, 'rowid': 6, 'type': 'publ', 'label': 'Theoretical Results on Base ...', 'title': 'Theoretical Results on Base Station Movement Problem for Sensor Network'},)
+inserting into edges start: %s, end: %s, type: desc (6, 8024)
+()
+inserting keyword into keywords table: %s USA Councils
+inserting into keywordpubs keywordId: %s, pubinfId: %s (462, 6)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (462, 'USA Councils', 'USA Councils')
+({'id': 6, 'rowid': 6, 'type': 'publ', 'label': 'Theoretical Results on Base ...', 'title': 'Theoretical Results on Base Station Movement Problem for Sensor Network'},)
+inserting into edges start: %s, end: %s, type: desc (6, 8025)
+Fetching keywords for publication:  RIPPLE Authentication for Network Coding
+Computer interfaces
+Computer networks
+Delay
+Message authentication
+Network coding
+Peer to peer computing
+Public key
+Public key cryptography
+Throughput
+Water pollution
+()
+inserting keyword into keywords table: %s Computer interfaces
+inserting into keywordpubs keywordId: %s, pubinfId: %s (463, 7)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (463, 'Computer interfaces', 'Computer interfaces')
+({'id': 7, 'rowid': 7, 'type': 'publ', 'label': 'RIPPLE Authentication for Ne...', 'title': 'RIPPLE Authentication for Network Coding'},)
+inserting into edges start: %s, end: %s, type: desc (7, 8026)
+()
+inserting keyword into keywords table: %s Computer networks
+inserting into keywordpubs keywordId: %s, pubinfId: %s (464, 7)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (464, 'Computer networks', 'Computer networks')
+({'id': 7, 'rowid': 7, 'type': 'publ', 'label': 'RIPPLE Authentication for Ne...', 'title': 'RIPPLE Authentication for Network Coding'},)
+inserting into edges start: %s, end: %s, type: desc (7, 8027)
+({'id': 16, 'keyword': 'Delay', 'keywordcount': 2},)
+keyword %s already exists in db Delay
+Updating keyword with keywordcount: %s 3
+()
+inserting keyword into keywords table: %s Message authentication
+inserting into keywordpubs keywordId: %s, pubinfId: %s (465, 7)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (465, 'Message authentication', 'Message authentication')
+({'id': 7, 'rowid': 7, 'type': 'publ', 'label': 'RIPPLE Authentication for Ne...', 'title': 'RIPPLE Authentication for Network Coding'},)
+inserting into edges start: %s, end: %s, type: desc (7, 8028)
+({'id': 4, 'keyword': 'Network Coding', 'keywordcount': 1},)
+keyword %s already exists in db Network coding
+Updating keyword with keywordcount: %s 2
+({'id': 452, 'keyword': 'Peer to peer computing', 'keywordcount': 0},)
+keyword %s already exists in db Peer to peer computing
+Updating keyword with keywordcount: %s 1
+()
+inserting keyword into keywords table: %s Public key
+inserting into keywordpubs keywordId: %s, pubinfId: %s (466, 7)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (466, 'Public key', 'Public key')
+({'id': 7, 'rowid': 7, 'type': 'publ', 'label': 'RIPPLE Authentication for Ne...', 'title': 'RIPPLE Authentication for Network Coding'},)
+inserting into edges start: %s, end: %s, type: desc (7, 8029)
+()
+inserting keyword into keywords table: %s Public key cryptography
+inserting into keywordpubs keywordId: %s, pubinfId: %s (467, 7)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (467, 'Public key cryptography', 'Public key cryptography')
+({'id': 7, 'rowid': 7, 'type': 'publ', 'label': 'RIPPLE Authentication for Ne...', 'title': 'RIPPLE Authentication for Network Coding'},)
+inserting into edges start: %s, end: %s, type: desc (7, 8030)
+({'id': 118, 'keyword': 'throughput', 'keywordcount': 2},)
+keyword %s already exists in db Throughput
+Updating keyword with keywordcount: %s 3
+()
+inserting keyword into keywords table: %s Water pollution
+inserting into keywordpubs keywordId: %s, pubinfId: %s (468, 7)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (468, 'Water pollution', 'Water pollution')
+({'id': 7, 'rowid': 7, 'type': 'publ', 'label': 'RIPPLE Authentication for Ne...', 'title': 'RIPPLE Authentication for Network Coding'},)
+inserting into edges start: %s, end: %s, type: desc (7, 8031)
+Fetching keywords for publication:  Interference Coordination Strategies for Content Update Dissemination in LTE-A
+Approximation algorithms
+Approximation methods
+Base stations
+Interference
+Optimization
+Schedules
+Signal to noise ratio
+({'id': 167, 'keyword': 'Approximation Algorithms', 'keywordcount': 1},)
+keyword %s already exists in db Approximation algorithms
+Updating keyword with keywordcount: %s 2
+()
+inserting keyword into keywords table: %s Approximation methods
+inserting into keywordpubs keywordId: %s, pubinfId: %s (469, 8)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (469, 'Approximation methods', 'Approximation methods')
+({'id': 8, 'rowid': 8, 'type': 'publ', 'label': 'Interference Coordination St...', 'title': 'Interference Coordination Strategies for Content Update Dissemination in LTE-A'},)
+inserting into edges start: %s, end: %s, type: desc (8, 8032)
+({'id': 455, 'keyword': 'Base stations', 'keywordcount': 0},)
+keyword %s already exists in db Base stations
+Updating keyword with keywordcount: %s 1
+({'id': 148, 'keyword': 'interference', 'keywordcount': 0},)
+keyword %s already exists in db Interference
+Updating keyword with keywordcount: %s 1
+({'id': 28, 'keyword': 'Optimization', 'keywordcount': 1},)
+keyword %s already exists in db Optimization
+Updating keyword with keywordcount: %s 2
+()
+inserting keyword into keywords table: %s Schedules
+inserting into keywordpubs keywordId: %s, pubinfId: %s (470, 8)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (470, 'Schedules', 'Schedules')
+({'id': 8, 'rowid': 8, 'type': 'publ', 'label': 'Interference Coordination St...', 'title': 'Interference Coordination Strategies for Content Update Dissemination in LTE-A'},)
+inserting into edges start: %s, end: %s, type: desc (8, 8033)
+()
+inserting keyword into keywords table: %s Signal to noise ratio
+inserting into keywordpubs keywordId: %s, pubinfId: %s (471, 8)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (471, 'Signal to noise ratio', 'Signal to noise ratio')
+({'id': 8, 'rowid': 8, 'type': 'publ', 'label': 'Interference Coordination St...', 'title': 'Interference Coordination Strategies for Content Update Dissemination in LTE-A'},)
+inserting into edges start: %s, end: %s, type: desc (8, 8034)
+Fetching keywords for publication:  A Sybilproof Indirect Reciprocity Mechanism for Peer-to-Peer Networks
+Communications Society
+Convergence
+Costs
+Educational institutions
+Forgery
+Peer to peer computing
+Protocols
+Public key
+Public key cryptography
+Routing
+({'id': 456, 'keyword': 'Communications Society', 'keywordcount': 0},)
+keyword %s already exists in db Communications Society
+Updating keyword with keywordcount: %s 1
+()
+inserting keyword into keywords table: %s Convergence
+inserting into keywordpubs keywordId: %s, pubinfId: %s (472, 9)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (472, 'Convergence', 'Convergence')
+({'id': 9, 'rowid': 9, 'type': 'publ', 'label': 'A Sybilproof Indirect Recipr...', 'title': 'A Sybilproof Indirect Reciprocity Mechanism for Peer-to-Peer Networks'},)
+inserting into edges start: %s, end: %s, type: desc (9, 8035)
+()
+inserting keyword into keywords table: %s Costs
+inserting into keywordpubs keywordId: %s, pubinfId: %s (473, 9)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (473, 'Costs', 'Costs')
+({'id': 9, 'rowid': 9, 'type': 'publ', 'label': 'A Sybilproof Indirect Recipr...', 'title': 'A Sybilproof Indirect Reciprocity Mechanism for Peer-to-Peer Networks'},)
+inserting into edges start: %s, end: %s, type: desc (9, 8036)
+()
+inserting keyword into keywords table: %s Educational institutions
+inserting into keywordpubs keywordId: %s, pubinfId: %s (474, 9)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (474, 'Educational institutions', 'Educational institutions')
+({'id': 9, 'rowid': 9, 'type': 'publ', 'label': 'A Sybilproof Indirect Recipr...', 'title': 'A Sybilproof Indirect Reciprocity Mechanism for Peer-to-Peer Networks'},)
+inserting into edges start: %s, end: %s, type: desc (9, 8037)
+()
+inserting keyword into keywords table: %s Forgery
+inserting into keywordpubs keywordId: %s, pubinfId: %s (475, 9)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (475, 'Forgery', 'Forgery')
+({'id': 9, 'rowid': 9, 'type': 'publ', 'label': 'A Sybilproof Indirect Recipr...', 'title': 'A Sybilproof Indirect Reciprocity Mechanism for Peer-to-Peer Networks'},)
+inserting into edges start: %s, end: %s, type: desc (9, 8038)
+({'id': 452, 'keyword': 'Peer to peer computing', 'keywordcount': 1},)
+keyword %s already exists in db Peer to peer computing
+Updating keyword with keywordcount: %s 2
+()
+inserting keyword into keywords table: %s Protocols
+inserting into keywordpubs keywordId: %s, pubinfId: %s (476, 9)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (476, 'Protocols', 'Protocols')
+({'id': 9, 'rowid': 9, 'type': 'publ', 'label': 'A Sybilproof Indirect Recipr...', 'title': 'A Sybilproof Indirect Reciprocity Mechanism for Peer-to-Peer Networks'},)
+inserting into edges start: %s, end: %s, type: desc (9, 8039)
+({'id': 466, 'keyword': 'Public key', 'keywordcount': 0},)
+keyword %s already exists in db Public key
+Updating keyword with keywordcount: %s 1
+({'id': 467, 'keyword': 'Public key cryptography', 'keywordcount': 0},)
+keyword %s already exists in db Public key cryptography
+Updating keyword with keywordcount: %s 1
+({'id': 84, 'keyword': 'Routing', 'keywordcount': 1},)
+keyword %s already exists in db Routing
+Updating keyword with keywordcount: %s 2
+Fetching keywords for publication:  A Unifying Perspective on the Capacity of Wireless Ad Hoc Networks
+Ad hoc networks
+Broadcasting
+Computer networks
+Context
+Mobile ad hoc networks
+Routing
+Throughput
+USA Councils
+Unicast
+Wireless networks
+({'id': 54, 'keyword': 'Ad hoc networks', 'keywordcount': 1},)
+keyword %s already exists in db Ad hoc networks
+Updating keyword with keywordcount: %s 2
+({'id': 166, 'keyword': 'broadcasting', 'keywordcount': 0},)
+keyword %s already exists in db Broadcasting
+Updating keyword with keywordcount: %s 1
+({'id': 464, 'keyword': 'Computer networks', 'keywordcount': 0},)
+keyword %s already exists in db Computer networks
+Updating keyword with keywordcount: %s 1
+()
+inserting keyword into keywords table: %s Context
+inserting into keywordpubs keywordId: %s, pubinfId: %s (477, 10)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (477, 'Context', 'Context')
+({'id': 10, 'rowid': 10, 'type': 'publ', 'label': 'A Unifying Perspective on th...', 'title': 'A Unifying Perspective on the Capacity of Wireless Ad Hoc Networks'},)
+inserting into edges start: %s, end: %s, type: desc (10, 8040)
+()
+inserting keyword into keywords table: %s Mobile ad hoc networks
+inserting into keywordpubs keywordId: %s, pubinfId: %s (478, 10)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (478, 'Mobile ad hoc networks', 'Mobile ad hoc networks')
+({'id': 10, 'rowid': 10, 'type': 'publ', 'label': 'A Unifying Perspective on th...', 'title': 'A Unifying Perspective on the Capacity of Wireless Ad Hoc Networks'},)
+inserting into edges start: %s, end: %s, type: desc (10, 8041)
+({'id': 84, 'keyword': 'Routing', 'keywordcount': 2},)
+keyword %s already exists in db Routing
+Updating keyword with keywordcount: %s 3
+({'id': 118, 'keyword': 'throughput', 'keywordcount': 3},)
+keyword %s already exists in db Throughput
+Updating keyword with keywordcount: %s 4
+({'id': 462, 'keyword': 'USA Councils', 'keywordcount': 0},)
+keyword %s already exists in db USA Councils
+Updating keyword with keywordcount: %s 1
+()
+inserting keyword into keywords table: %s Unicast
+inserting into keywordpubs keywordId: %s, pubinfId: %s (479, 10)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (479, 'Unicast', 'Unicast')
+({'id': 10, 'rowid': 10, 'type': 'publ', 'label': 'A Unifying Perspective on th...', 'title': 'A Unifying Perspective on the Capacity of Wireless Ad Hoc Networks'},)
+inserting into edges start: %s, end: %s, type: desc (10, 8042)
+({'id': 7, 'keyword': 'wireless networks', 'keywordcount': 2},)
+keyword %s already exists in db Wireless networks
+Updating keyword with keywordcount: %s 3
+Fetching keywords for publication:  A Novel Access Method for Supporting Absolute and Proportional Priorities in 802.11 WLANs
+Broadcasting
+Communications Society
+Degradation
+Informatics
+Multimedia communication
+Quality of service
+Telecommunication traffic
+Teleconferencing
+Throughput
+Wireless networks
+({'id': 166, 'keyword': 'broadcasting', 'keywordcount': 1},)
+keyword %s already exists in db Broadcasting
+Updating keyword with keywordcount: %s 2
+({'id': 456, 'keyword': 'Communications Society', 'keywordcount': 1},)
+keyword %s already exists in db Communications Society
+Updating keyword with keywordcount: %s 2
+()
+inserting keyword into keywords table: %s Degradation
+inserting into keywordpubs keywordId: %s, pubinfId: %s (480, 11)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (480, 'Degradation', 'Degradation')
+({'id': 11, 'rowid': 11, 'type': 'publ', 'label': 'A Novel Access Method for Su...', 'title': 'A Novel Access Method for Supporting Absolute and Proportional Priorities in 802.11 WLANs'},)
+inserting into edges start: %s, end: %s, type: desc (11, 8043)
+()
+inserting keyword into keywords table: %s Informatics
+inserting into keywordpubs keywordId: %s, pubinfId: %s (481, 11)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (481, 'Informatics', 'Informatics')
+({'id': 11, 'rowid': 11, 'type': 'publ', 'label': 'A Novel Access Method for Su...', 'title': 'A Novel Access Method for Supporting Absolute and Proportional Priorities in 802.11 WLANs'},)
+inserting into edges start: %s, end: %s, type: desc (11, 8044)
+()
+inserting keyword into keywords table: %s Multimedia communication
+inserting into keywordpubs keywordId: %s, pubinfId: %s (482, 11)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (482, 'Multimedia communication', 'Multimedia communication')
+({'id': 11, 'rowid': 11, 'type': 'publ', 'label': 'A Novel Access Method for Su...', 'title': 'A Novel Access Method for Supporting Absolute and Proportional Priorities in 802.11 WLANs'},)
+inserting into edges start: %s, end: %s, type: desc (11, 8045)
+({'id': 192, 'keyword': 'quality of service', 'keywordcount': 0},)
+keyword %s already exists in db Quality of service
+Updating keyword with keywordcount: %s 1
+({'id': 461, 'keyword': 'Telecommunication traffic', 'keywordcount': 0},)
+keyword %s already exists in db Telecommunication traffic
+Updating keyword with keywordcount: %s 1
+()
+inserting keyword into keywords table: %s Teleconferencing
+inserting into keywordpubs keywordId: %s, pubinfId: %s (483, 11)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (483, 'Teleconferencing', 'Teleconferencing')
+({'id': 11, 'rowid': 11, 'type': 'publ', 'label': 'A Novel Access Method for Su...', 'title': 'A Novel Access Method for Supporting Absolute and Proportional Priorities in 802.11 WLANs'},)
+inserting into edges start: %s, end: %s, type: desc (11, 8046)
+({'id': 118, 'keyword': 'throughput', 'keywordcount': 4},)
+keyword %s already exists in db Throughput
+Updating keyword with keywordcount: %s 5
+({'id': 7, 'keyword': 'wireless networks', 'keywordcount': 3},)
+keyword %s already exists in db Wireless networks
+Updating keyword with keywordcount: %s 4
+Fetching keywords for publication:  Distributed Algorithms for Approximating Wireless Network Capacity
+Broadcasting
+Communications Society
+Distributed algorithms
+Game theory
+Interference
+Machine learning algorithms
+Transmitters
+USA Councils
+Wireless application protocol
+Wireless networks
+({'id': 166, 'keyword': 'broadcasting', 'keywordcount': 2},)
+keyword %s already exists in db Broadcasting
+Updating keyword with keywordcount: %s 3
+({'id': 456, 'keyword': 'Communications Society', 'keywordcount': 2},)
+keyword %s already exists in db Communications Society
+Updating keyword with keywordcount: %s 3
+({'id': 328, 'keyword': 'Distributed algorithms', 'keywordcount': 0},)
+keyword %s already exists in db Distributed algorithms
+Updating keyword with keywordcount: %s 1
+({'id': 26, 'keyword': 'Game Theory', 'keywordcount': 0},)
+keyword %s already exists in db Game theory
+Updating keyword with keywordcount: %s 1
+({'id': 148, 'keyword': 'interference', 'keywordcount': 1},)
+keyword %s already exists in db Interference
+Updating keyword with keywordcount: %s 2
+()
+inserting keyword into keywords table: %s Machine learning algorithms
+inserting into keywordpubs keywordId: %s, pubinfId: %s (484, 12)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (484, 'Machine learning algorithms', 'Machine learning algorithms')
+({'id': 12, 'rowid': 12, 'type': 'publ', 'label': 'Distributed Algorithms for A...', 'title': 'Distributed Algorithms for Approximating Wireless Network Capacity'},)
+inserting into edges start: %s, end: %s, type: desc (12, 8047)
+()
+inserting keyword into keywords table: %s Transmitters
+inserting into keywordpubs keywordId: %s, pubinfId: %s (485, 12)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (485, 'Transmitters', 'Transmitters')
+({'id': 12, 'rowid': 12, 'type': 'publ', 'label': 'Distributed Algorithms for A...', 'title': 'Distributed Algorithms for Approximating Wireless Network Capacity'},)
+inserting into edges start: %s, end: %s, type: desc (12, 8048)
+({'id': 462, 'keyword': 'USA Councils', 'keywordcount': 1},)
+keyword %s already exists in db USA Councils
+Updating keyword with keywordcount: %s 2
+({'id': 426, 'keyword': 'Wireless application protocol', 'keywordcount': 0},)
+keyword %s already exists in db Wireless application protocol
+Updating keyword with keywordcount: %s 1
+({'id': 7, 'keyword': 'wireless networks', 'keywordcount': 4},)
+keyword %s already exists in db Wireless networks
+Updating keyword with keywordcount: %s 5
+Fetching keywords for publication:  Online Energy Efficient Packet Scheduling with Delay Constraints in Wireless Networks
+AWGN channels
+Circuits
+Communications Society
+Delay
+Energy consumption
+Energy efficiency
+Scheduling algorithm
+Timing
+Transmitters
+Wireless networks
+()
+inserting keyword into keywords table: %s AWGN channels
+inserting into keywordpubs keywordId: %s, pubinfId: %s (486, 13)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (486, 'AWGN channels', 'AWGN channels')
+({'id': 13, 'rowid': 13, 'type': 'publ', 'label': 'Online Energy Efficient Pack...', 'title': 'Online Energy Efficient Packet Scheduling with Delay Constraints in Wireless Networks'},)
+inserting into edges start: %s, end: %s, type: desc (13, 8049)
+()
+inserting keyword into keywords table: %s Circuits
+inserting into keywordpubs keywordId: %s, pubinfId: %s (487, 13)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (487, 'Circuits', 'Circuits')
+({'id': 13, 'rowid': 13, 'type': 'publ', 'label': 'Online Energy Efficient Pack...', 'title': 'Online Energy Efficient Packet Scheduling with Delay Constraints in Wireless Networks'},)
+inserting into edges start: %s, end: %s, type: desc (13, 8050)
+({'id': 456, 'keyword': 'Communications Society', 'keywordcount': 3},)
+keyword %s already exists in db Communications Society
+Updating keyword with keywordcount: %s 4
+({'id': 16, 'keyword': 'Delay', 'keywordcount': 3},)
+keyword %s already exists in db Delay
+Updating keyword with keywordcount: %s 4
+({'id': 433, 'keyword': 'Energy consumption', 'keywordcount': 0},)
+keyword %s already exists in db Energy consumption
+Updating keyword with keywordcount: %s 1
+({'id': 135, 'keyword': 'energy efficiency', 'keywordcount': 0},)
+keyword %s already exists in db Energy efficiency
+Updating keyword with keywordcount: %s 1
+()
+inserting keyword into keywords table: %s Scheduling algorithm
+inserting into keywordpubs keywordId: %s, pubinfId: %s (488, 13)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (488, 'Scheduling algorithm', 'Scheduling algorithm')
+({'id': 13, 'rowid': 13, 'type': 'publ', 'label': 'Online Energy Efficient Pack...', 'title': 'Online Energy Efficient Packet Scheduling with Delay Constraints in Wireless Networks'},)
+inserting into edges start: %s, end: %s, type: desc (13, 8051)
+()
+inserting keyword into keywords table: %s Timing
+inserting into keywordpubs keywordId: %s, pubinfId: %s (489, 13)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (489, 'Timing', 'Timing')
+({'id': 13, 'rowid': 13, 'type': 'publ', 'label': 'Online Energy Efficient Pack...', 'title': 'Online Energy Efficient Packet Scheduling with Delay Constraints in Wireless Networks'},)
+inserting into edges start: %s, end: %s, type: desc (13, 8052)
+({'id': 485, 'keyword': 'Transmitters', 'keywordcount': 0},)
+keyword %s already exists in db Transmitters
+Updating keyword with keywordcount: %s 1
+({'id': 7, 'keyword': 'wireless networks', 'keywordcount': 5},)
+keyword %s already exists in db Wireless networks
+Updating keyword with keywordcount: %s 6
+Fetching keywords for publication:  Coverage and Connectivity of Ad Hoc Networks in Presence of Channel Randomness
+Ad hoc networks
+Computer networks
+Fading
+Intelligent networks
+Packet radio networks
+Radio communication
+Rayleigh channels
+Shadow mapping
+Spread spectrum communication
+Wireless sensor networks
+({'id': 54, 'keyword': 'Ad hoc networks', 'keywordcount': 2},)
+keyword %s already exists in db Ad hoc networks
+Updating keyword with keywordcount: %s 3
+({'id': 464, 'keyword': 'Computer networks', 'keywordcount': 1},)
+keyword %s already exists in db Computer networks
+Updating keyword with keywordcount: %s 2
+()
+inserting keyword into keywords table: %s Fading
+inserting into keywordpubs keywordId: %s, pubinfId: %s (490, 14)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (490, 'Fading', 'Fading')
+({'id': 14, 'rowid': 14, 'type': 'publ', 'label': 'Coverage and Connectivity of...', 'title': 'Coverage and Connectivity of Ad Hoc Networks in Presence of Channel Randomness'},)
+inserting into edges start: %s, end: %s, type: desc (14, 8053)
+()
+inserting keyword into keywords table: %s Intelligent networks
+inserting into keywordpubs keywordId: %s, pubinfId: %s (491, 14)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (491, 'Intelligent networks', 'Intelligent networks')
+({'id': 14, 'rowid': 14, 'type': 'publ', 'label': 'Coverage and Connectivity of...', 'title': 'Coverage and Connectivity of Ad Hoc Networks in Presence of Channel Randomness'},)
+inserting into edges start: %s, end: %s, type: desc (14, 8054)
+()
+inserting keyword into keywords table: %s Packet radio networks
+inserting into keywordpubs keywordId: %s, pubinfId: %s (492, 14)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (492, 'Packet radio networks', 'Packet radio networks')
+({'id': 14, 'rowid': 14, 'type': 'publ', 'label': 'Coverage and Connectivity of...', 'title': 'Coverage and Connectivity of Ad Hoc Networks in Presence of Channel Randomness'},)
+inserting into edges start: %s, end: %s, type: desc (14, 8055)
+()
+inserting keyword into keywords table: %s Radio communication
+inserting into keywordpubs keywordId: %s, pubinfId: %s (493, 14)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (493, 'Radio communication', 'Radio communication')
+({'id': 14, 'rowid': 14, 'type': 'publ', 'label': 'Coverage and Connectivity of...', 'title': 'Coverage and Connectivity of Ad Hoc Networks in Presence of Channel Randomness'},)
+inserting into edges start: %s, end: %s, type: desc (14, 8056)
+()
+inserting keyword into keywords table: %s Rayleigh channels
+inserting into keywordpubs keywordId: %s, pubinfId: %s (494, 14)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (494, 'Rayleigh channels', 'Rayleigh channels')
+({'id': 14, 'rowid': 14, 'type': 'publ', 'label': 'Coverage and Connectivity of...', 'title': 'Coverage and Connectivity of Ad Hoc Networks in Presence of Channel Randomness'},)
+inserting into edges start: %s, end: %s, type: desc (14, 8057)
+()
+inserting keyword into keywords table: %s Shadow mapping
+inserting into keywordpubs keywordId: %s, pubinfId: %s (495, 14)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (495, 'Shadow mapping', 'Shadow mapping')
+({'id': 14, 'rowid': 14, 'type': 'publ', 'label': 'Coverage and Connectivity of...', 'title': 'Coverage and Connectivity of Ad Hoc Networks in Presence of Channel Randomness'},)
+inserting into edges start: %s, end: %s, type: desc (14, 8058)
+({'id': 435, 'keyword': 'Spread spectrum communication', 'keywordcount': 0},)
+keyword %s already exists in db Spread spectrum communication
+Updating keyword with keywordcount: %s 1
+({'id': 2, 'keyword': 'wireless sensor networks', 'keywordcount': 0},)
+keyword %s already exists in db Wireless sensor networks
+Updating keyword with keywordcount: %s 1
+Fetching keywords for publication:  Opportunistic Routing with Congestion Diversity in Wireless Multi-hop Networks
+Delay
+Diversity reception
+Relays
+Routing
+Spread spectrum communication
+Statistics
+Stochastic processes
+Telecommunication traffic
+Time measurement
+Traffic control
+({'id': 16, 'keyword': 'Delay', 'keywordcount': 4},)
+keyword %s already exists in db Delay
+Updating keyword with keywordcount: %s 5
+()
+inserting keyword into keywords table: %s Diversity reception
+inserting into keywordpubs keywordId: %s, pubinfId: %s (496, 15)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (496, 'Diversity reception', 'Diversity reception')
+({'id': 15, 'rowid': 15, 'type': 'publ', 'label': 'Opportunistic Routing with C...', 'title': 'Opportunistic Routing with Congestion Diversity in Wireless Multi-hop Networks'},)
+inserting into edges start: %s, end: %s, type: desc (15, 8059)
+({'id': 434, 'keyword': 'Relays', 'keywordcount': 0},)
+keyword %s already exists in db Relays
+Updating keyword with keywordcount: %s 1
+({'id': 84, 'keyword': 'Routing', 'keywordcount': 3},)
+keyword %s already exists in db Routing
+Updating keyword with keywordcount: %s 4
+({'id': 435, 'keyword': 'Spread spectrum communication', 'keywordcount': 1},)
+keyword %s already exists in db Spread spectrum communication
+Updating keyword with keywordcount: %s 2
+()
+inserting keyword into keywords table: %s Statistics
+inserting into keywordpubs keywordId: %s, pubinfId: %s (497, 15)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (497, 'Statistics', 'Statistics')
+({'id': 15, 'rowid': 15, 'type': 'publ', 'label': 'Opportunistic Routing with C...', 'title': 'Opportunistic Routing with Congestion Diversity in Wireless Multi-hop Networks'},)
+inserting into edges start: %s, end: %s, type: desc (15, 8060)
+()
+inserting keyword into keywords table: %s Stochastic processes
+inserting into keywordpubs keywordId: %s, pubinfId: %s (498, 15)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (498, 'Stochastic processes', 'Stochastic processes')
+({'id': 15, 'rowid': 15, 'type': 'publ', 'label': 'Opportunistic Routing with C...', 'title': 'Opportunistic Routing with Congestion Diversity in Wireless Multi-hop Networks'},)
+inserting into edges start: %s, end: %s, type: desc (15, 8061)
+({'id': 461, 'keyword': 'Telecommunication traffic', 'keywordcount': 1},)
+keyword %s already exists in db Telecommunication traffic
+Updating keyword with keywordcount: %s 2
+()
+inserting keyword into keywords table: %s Time measurement
+inserting into keywordpubs keywordId: %s, pubinfId: %s (499, 15)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (499, 'Time measurement', 'Time measurement')
+({'id': 15, 'rowid': 15, 'type': 'publ', 'label': 'Opportunistic Routing with C...', 'title': 'Opportunistic Routing with Congestion Diversity in Wireless Multi-hop Networks'},)
+inserting into edges start: %s, end: %s, type: desc (15, 8062)
+()
+inserting keyword into keywords table: %s Traffic control
+inserting into keywordpubs keywordId: %s, pubinfId: %s (500, 15)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (500, 'Traffic control', 'Traffic control')
+({'id': 15, 'rowid': 15, 'type': 'publ', 'label': 'Opportunistic Routing with C...', 'title': 'Opportunistic Routing with Congestion Diversity in Wireless Multi-hop Networks'},)
+inserting into edges start: %s, end: %s, type: desc (15, 8063)
+Fetching keywords for publication:  The BEST Challenge for Next-Generation Ethernet Services
+Bandwidth
+Ethernet networks
+Frame relay
+Local area networks
+Next generation networking
+Polynomials
+Protocols
+SONET
+Scalability
+Virtual private networks
+({'id': 436, 'keyword': 'Bandwidth', 'keywordcount': 0},)
+keyword %s already exists in db Bandwidth
+Updating keyword with keywordcount: %s 1
+()
+inserting keyword into keywords table: %s Ethernet networks
+inserting into keywordpubs keywordId: %s, pubinfId: %s (501, 16)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (501, 'Ethernet networks', 'Ethernet networks')
+({'id': 16, 'rowid': 16, 'type': 'publ', 'label': 'The BEST Challenge for Next-...', 'title': 'The BEST Challenge for Next-Generation Ethernet Services'},)
+inserting into edges start: %s, end: %s, type: desc (16, 8064)
+()
+inserting keyword into keywords table: %s Frame relay
+inserting into keywordpubs keywordId: %s, pubinfId: %s (502, 16)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (502, 'Frame relay', 'Frame relay')
+({'id': 16, 'rowid': 16, 'type': 'publ', 'label': 'The BEST Challenge for Next-...', 'title': 'The BEST Challenge for Next-Generation Ethernet Services'},)
+inserting into edges start: %s, end: %s, type: desc (16, 8065)
+()
+inserting keyword into keywords table: %s Local area networks
+inserting into keywordpubs keywordId: %s, pubinfId: %s (503, 16)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (503, 'Local area networks', 'Local area networks')
+({'id': 16, 'rowid': 16, 'type': 'publ', 'label': 'The BEST Challenge for Next-...', 'title': 'The BEST Challenge for Next-Generation Ethernet Services'},)
+inserting into edges start: %s, end: %s, type: desc (16, 8066)
+()
+inserting keyword into keywords table: %s Next generation networking
+inserting into keywordpubs keywordId: %s, pubinfId: %s (504, 16)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (504, 'Next generation networking', 'Next generation networking')
+({'id': 16, 'rowid': 16, 'type': 'publ', 'label': 'The BEST Challenge for Next-...', 'title': 'The BEST Challenge for Next-Generation Ethernet Services'},)
+inserting into edges start: %s, end: %s, type: desc (16, 8067)
+()
+inserting keyword into keywords table: %s Polynomials
+inserting into keywordpubs keywordId: %s, pubinfId: %s (505, 16)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (505, 'Polynomials', 'Polynomials')
+({'id': 16, 'rowid': 16, 'type': 'publ', 'label': 'The BEST Challenge for Next-...', 'title': 'The BEST Challenge for Next-Generation Ethernet Services'},)
+inserting into edges start: %s, end: %s, type: desc (16, 8068)
+({'id': 476, 'keyword': 'Protocols', 'keywordcount': 0},)
+keyword %s already exists in db Protocols
+Updating keyword with keywordcount: %s 1
+()
+inserting keyword into keywords table: %s SONET
+inserting into keywordpubs keywordId: %s, pubinfId: %s (506, 16)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (506, 'SONET', 'SONET')
+({'id': 16, 'rowid': 16, 'type': 'publ', 'label': 'The BEST Challenge for Next-...', 'title': 'The BEST Challenge for Next-Generation Ethernet Services'},)
+inserting into edges start: %s, end: %s, type: desc (16, 8069)
+()
+inserting keyword into keywords table: %s Scalability
+inserting into keywordpubs keywordId: %s, pubinfId: %s (507, 16)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (507, 'Scalability', 'Scalability')
+({'id': 16, 'rowid': 16, 'type': 'publ', 'label': 'The BEST Challenge for Next-...', 'title': 'The BEST Challenge for Next-Generation Ethernet Services'},)
+inserting into edges start: %s, end: %s, type: desc (16, 8070)
+()
+inserting keyword into keywords table: %s Virtual private networks
+inserting into keywordpubs keywordId: %s, pubinfId: %s (508, 16)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (508, 'Virtual private networks', 'Virtual private networks')
+({'id': 16, 'rowid': 16, 'type': 'publ', 'label': 'The BEST Challenge for Next-...', 'title': 'The BEST Challenge for Next-Generation Ethernet Services'},)
+inserting into edges start: %s, end: %s, type: desc (16, 8071)
+Fetching keywords for publication:  Analyzing the Performance of Greedy Maximal Scheduling via Local Pooling and Graph Theory
+Bipartite graph
+Interference constraints
+Scheduling
+Scheduling algorithm
+Stability analysis
+Throughput
+()
+inserting keyword into keywords table: %s Bipartite graph
+inserting into keywordpubs keywordId: %s, pubinfId: %s (509, 17)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (509, 'Bipartite graph', 'Bipartite graph')
+({'id': 17, 'rowid': 17, 'type': 'publ', 'label': 'Analyzing the Performance of...', 'title': 'Analyzing the Performance of Greedy Maximal Scheduling via Local Pooling and Graph Theory'},)
+inserting into edges start: %s, end: %s, type: desc (17, 8072)
+()
+inserting keyword into keywords table: %s Interference constraints
+inserting into keywordpubs keywordId: %s, pubinfId: %s (510, 17)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (510, 'Interference constraints', 'Interference constraints')
+({'id': 17, 'rowid': 17, 'type': 'publ', 'label': 'Analyzing the Performance of...', 'title': 'Analyzing the Performance of Greedy Maximal Scheduling via Local Pooling and Graph Theory'},)
+inserting into edges start: %s, end: %s, type: desc (17, 8073)
+({'id': 165, 'keyword': 'Scheduling', 'keywordcount': 0},)
+keyword %s already exists in db Scheduling
+Updating keyword with keywordcount: %s 1
+({'id': 488, 'keyword': 'Scheduling algorithm', 'keywordcount': 0},)
+keyword %s already exists in db Scheduling algorithm
+Updating keyword with keywordcount: %s 1
+()
+inserting keyword into keywords table: %s Stability analysis
+inserting into keywordpubs keywordId: %s, pubinfId: %s (511, 17)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (511, 'Stability analysis', 'Stability analysis')
+({'id': 17, 'rowid': 17, 'type': 'publ', 'label': 'Analyzing the Performance of...', 'title': 'Analyzing the Performance of Greedy Maximal Scheduling via Local Pooling and Graph Theory'},)
+inserting into edges start: %s, end: %s, type: desc (17, 8074)
+({'id': 118, 'keyword': 'throughput', 'keywordcount': 5},)
+keyword %s already exists in db Throughput
+Updating keyword with keywordcount: %s 6
+Fetching keywords for publication:  On Computing Compression Trees for Data Collection in Wireless Sensor Networks
+Base stations
+Communications Society
+Computer networks
+Computer science
+Costs
+Educational institutions
+Entropy
+Monitoring
+Protocols
+Wireless sensor networks
+({'id': 455, 'keyword': 'Base stations', 'keywordcount': 1},)
+keyword %s already exists in db Base stations
+Updating keyword with keywordcount: %s 2
+({'id': 456, 'keyword': 'Communications Society', 'keywordcount': 4},)
+keyword %s already exists in db Communications Society
+Updating keyword with keywordcount: %s 5
+({'id': 464, 'keyword': 'Computer networks', 'keywordcount': 2},)
+keyword %s already exists in db Computer networks
+Updating keyword with keywordcount: %s 3
+({'id': 449, 'keyword': 'Computer science', 'keywordcount': 0},)
+keyword %s already exists in db Computer science
+Updating keyword with keywordcount: %s 1
+({'id': 473, 'keyword': 'Costs', 'keywordcount': 0},)
+keyword %s already exists in db Costs
+Updating keyword with keywordcount: %s 1
+({'id': 474, 'keyword': 'Educational institutions', 'keywordcount': 0},)
+keyword %s already exists in db Educational institutions
+Updating keyword with keywordcount: %s 1
+()
+inserting keyword into keywords table: %s Entropy
+inserting into keywordpubs keywordId: %s, pubinfId: %s (512, 18)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (512, 'Entropy', 'Entropy')
+({'id': 18, 'rowid': 18, 'type': 'publ', 'label': 'On Computing Compression Tre...', 'title': 'On Computing Compression Trees for Data Collection in Wireless Sensor Networks'},)
+inserting into edges start: %s, end: %s, type: desc (18, 8075)
+()
+inserting keyword into keywords table: %s Monitoring
+inserting into keywordpubs keywordId: %s, pubinfId: %s (513, 18)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (513, 'Monitoring', 'Monitoring')
+({'id': 18, 'rowid': 18, 'type': 'publ', 'label': 'On Computing Compression Tre...', 'title': 'On Computing Compression Trees for Data Collection in Wireless Sensor Networks'},)
+inserting into edges start: %s, end: %s, type: desc (18, 8076)
+({'id': 476, 'keyword': 'Protocols', 'keywordcount': 1},)
+keyword %s already exists in db Protocols
+Updating keyword with keywordcount: %s 2
+({'id': 2, 'keyword': 'wireless sensor networks', 'keywordcount': 1},)
+keyword %s already exists in db Wireless sensor networks
+Updating keyword with keywordcount: %s 2
+Fetching keywords for publication:  Leveraging Channel Diversity for Key Establishment in Wireless Sensor Networks
+Authentication
+Broadcasting
+Computer science
+Computer security
+Cryptography
+Hardware
+Performance analysis
+Protocols
+Public key
+Wireless sensor networks
+()
+inserting keyword into keywords table: %s Authentication
+inserting into keywordpubs keywordId: %s, pubinfId: %s (514, 19)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (514, 'Authentication', 'Authentication')
+({'id': 19, 'rowid': 19, 'type': 'publ', 'label': 'Leveraging Channel Diversity...', 'title': 'Leveraging Channel Diversity for Key Establishment in Wireless Sensor Networks'},)
+inserting into edges start: %s, end: %s, type: desc (19, 8077)
+({'id': 166, 'keyword': 'broadcasting', 'keywordcount': 3},)
+keyword %s already exists in db Broadcasting
+Updating keyword with keywordcount: %s 4
+({'id': 449, 'keyword': 'Computer science', 'keywordcount': 1},)
+keyword %s already exists in db Computer science
+Updating keyword with keywordcount: %s 2
+()
+inserting keyword into keywords table: %s Computer security
+inserting into keywordpubs keywordId: %s, pubinfId: %s (515, 19)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (515, 'Computer security', 'Computer security')
+({'id': 19, 'rowid': 19, 'type': 'publ', 'label': 'Leveraging Channel Diversity...', 'title': 'Leveraging Channel Diversity for Key Establishment in Wireless Sensor Networks'},)
+inserting into edges start: %s, end: %s, type: desc (19, 8078)
+()
+inserting keyword into keywords table: %s Cryptography
+inserting into keywordpubs keywordId: %s, pubinfId: %s (516, 19)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (516, 'Cryptography', 'Cryptography')
+({'id': 19, 'rowid': 19, 'type': 'publ', 'label': 'Leveraging Channel Diversity...', 'title': 'Leveraging Channel Diversity for Key Establishment in Wireless Sensor Networks'},)
+inserting into edges start: %s, end: %s, type: desc (19, 8079)
+()
+inserting keyword into keywords table: %s Hardware
+inserting into keywordpubs keywordId: %s, pubinfId: %s (517, 19)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (517, 'Hardware', 'Hardware')
+({'id': 19, 'rowid': 19, 'type': 'publ', 'label': 'Leveraging Channel Diversity...', 'title': 'Leveraging Channel Diversity for Key Establishment in Wireless Sensor Networks'},)
+inserting into edges start: %s, end: %s, type: desc (19, 8080)
+({'id': 103, 'keyword': 'performance analysis', 'keywordcount': 0},)
+keyword %s already exists in db Performance analysis
+Updating keyword with keywordcount: %s 1
+({'id': 476, 'keyword': 'Protocols', 'keywordcount': 2},)
+keyword %s already exists in db Protocols
+Updating keyword with keywordcount: %s 3
+({'id': 466, 'keyword': 'Public key', 'keywordcount': 1},)
+keyword %s already exists in db Public key
+Updating keyword with keywordcount: %s 2
+({'id': 2, 'keyword': 'wireless sensor networks', 'keywordcount': 2},)
+keyword %s already exists in db Wireless sensor networks
+Updating keyword with keywordcount: %s 3
+Fetching keywords for publication:  Energy Optimal Control for Time Varying Wireless Networks
+Ad hoc networks
+Adaptive control
+Adaptive systems
+Communication system traffic control
+Interference
+Optimal control
+Programmable control
+Throughput
+Wireless networks
+Wireless sensor networks
+({'id': 54, 'keyword': 'Ad hoc networks', 'keywordcount': 3},)
+keyword %s already exists in db Ad hoc networks
+Updating keyword with keywordcount: %s 4
+()
+inserting keyword into keywords table: %s Adaptive control
+inserting into keywordpubs keywordId: %s, pubinfId: %s (518, 20)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (518, 'Adaptive control', 'Adaptive control')
+({'id': 20, 'rowid': 20, 'type': 'publ', 'label': 'Energy Optimal Control for T...', 'title': 'Energy Optimal Control for Time Varying Wireless Networks'},)
+inserting into edges start: %s, end: %s, type: desc (20, 8081)
+()
+inserting keyword into keywords table: %s Adaptive systems
+inserting into keywordpubs keywordId: %s, pubinfId: %s (519, 20)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (519, 'Adaptive systems', 'Adaptive systems')
+({'id': 20, 'rowid': 20, 'type': 'publ', 'label': 'Energy Optimal Control for T...', 'title': 'Energy Optimal Control for Time Varying Wireless Networks'},)
+inserting into edges start: %s, end: %s, type: desc (20, 8082)
+()
+inserting keyword into keywords table: %s Communication system traffic control
+inserting into keywordpubs keywordId: %s, pubinfId: %s (520, 20)
+inserting into nodes insertedKeywordId: %s, type: keyword, label: %s, title: %s (520, 'Communication system traffic control', 'Communication system traffic control')
+Unexpected error, rolling back: <class '_mysql_exceptions.DataError'>
+Traceback (most recent call last):
+  File "__init__.py", line 31, in <module>
+    tosDao.insertKeyword(keywords, publication.id)
+  File "/home/tosca/lacas/git/keywordapi/TosDao.py", line 52, in insertKeyword
+    self.dictCursor.execute("INSERT INTO nodes (rowid, type, label, title) VALUES(%s, %s, %s, %s)", (int(insertedKeywordId), "keyword", keyword, keyword))
+  File "/home/tosca/.local/lib/python3.6/site-packages/MySQLdb/cursors.py", line 250, in execute
+    self.errorhandler(self, exc, value)
+  File "/home/tosca/.local/lib/python3.6/site-packages/MySQLdb/connections.py", line 50, in defaulterrorhandler
+    raise errorvalue
+  File "/home/tosca/.local/lib/python3.6/site-packages/MySQLdb/cursors.py", line 247, in execute
+    res = self._query(query)
+  File "/home/tosca/.local/lib/python3.6/site-packages/MySQLdb/cursors.py", line 412, in _query
+    rowcount = self._do_query(q)
+  File "/home/tosca/.local/lib/python3.6/site-packages/MySQLdb/cursors.py", line 375, in _do_query
+    db.query(q)
+  File "/home/tosca/.local/lib/python3.6/site-packages/MySQLdb/connections.py", line 276, in query
+    _mysql.connection.query(self, query)
+_mysql_exceptions.DataError: (1406, "Data too long for column 'label' at row 1")
