@@ -41,7 +41,7 @@ class TOSDAO:
                     self.dictCursor.execute("UPDATE keywords SET keywordcount = %s WHERE id = %s", (int(keywordCount), int(keywordId)))
                 else:
                     #if not, insert it
-                    print("inserting keyword into keywords table: %(keyword)s", {'keyword': keyword})
+                    print("inserting keyword into keywords table: %s " (keyword))
                     self.dictCursor.execute("INSERT INTO keywords (keyword, keywordcount) VALUES(%s, %s)", (keyword, int(0)))
                     #insert into the connector table
                     insertedKeywordId = self.conn.insert_id()
