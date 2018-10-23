@@ -19,13 +19,15 @@ tosDao = TOSDAO(config)
 
 publications = tosDao.getArticles()
 
-
-for publication in publications:
-    print("Fetching keywords for publication: ", publication.title)
-    xplore.articleTitle(publication.title)
-    articleData = json.load(urllib.request.urlopen(xplore.callAPI(False)))
-    if bool(articleData['articles'][0]['index_terms']):
-        keywords = articleData['articles'][0]['index_terms']['ieee_terms']['terms']
-        for key in keywords:
+try:
+    for publication in publications:
+        print("Fetching keywords for publication: ", publication.title)
+        xplore.articleTitle(publication.title)
+        articleData = json.load(urllib.request.urlopen(xplore.callAPI(False)))
+        if bool(articleData['articles'][0]['index_terms']):
+            keywords = articleData['articles'][0]['index_terms']['ieee_terms']['terms']
+            for key in keywords:
                 print(key)
-        tosDao.insertKeyword(keywords, publication.id)
+            tosDao.insertKeyword(keywords, publication.id)
+except urllib2.HTTPError, e:
+    print e.fp.read()
