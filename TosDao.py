@@ -30,6 +30,7 @@ class TOSDAO:
                 #check if keyword already exists
                 self.dictCursor.execute("SELECT * FROM keywords WHERE keyword = %(keyword)s", {'keyword': keyword})
                 result_set = self.dictCursor.fetchall()
+                print(result_set)
                 if bool(result_set[0]):
                     print("keyword %s already exists in db" (keyword))
                     existingKeyword = MAPPER.mapRow(result_set[0])
