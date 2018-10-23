@@ -32,7 +32,7 @@ class TOSDAO:
                 result_set = self.dictCursor.fetchall()
                 print(result_set)
                 if bool(result_set):
-                    print("keyword %s already exists in db" (keyword))
+                    print("keyword %s already exists in db", (keyword))
                     existingKeyword = MAPPER.mapRow(result_set[0])
                     keywordCount = existingKeyword.keywordcount + 1 
                     keywordId = existingKeyword.id
