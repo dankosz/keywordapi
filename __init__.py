@@ -28,4 +28,4 @@ for publication in publications:
         keywords = articleData['articles'][0]['index_terms']['ieee_terms']['terms']
         for key in keywords:
                 print(key)
-        #tosDao.insertKeyword(keywords, publication.id)
+        tosDao.insertKeyword(keywords, publication.id)
