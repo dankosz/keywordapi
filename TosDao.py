@@ -34,11 +34,10 @@ class TOSDAO:
                 if bool(result_set):
                     print("keyword %s already exists in db", (keyword))
                     existingKeyword = MAPPER.mapRow(result_set[0])
-                    print(existingKeyword.keywordcount)
                     keywordCount = existingKeyword.keywordcount + 1 
                     keywordId = existingKeyword.id
                     #if yes, increment the keywordCount
-                    print("Updating keyword with keywordcount: %s" (int(keywordCount)))
+                    print("Updating keyword with keywordcount: %s", (int(keywordCount)))
                     self.dictCursor.execute("UPDATE keywords SET keywordcount = %s WHERE id = %s", (int(keywordCount), int(keywordId)))
                 else:
                     #if not, insert it
