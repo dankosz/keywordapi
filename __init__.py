@@ -29,7 +29,7 @@ try:
             for key in keywords:
                 print(key)
             tosDao.insertKeyword(keywords, publication.id)
-except error.HTTPError as e:
+except urllib.error.HTTPError as e:
 		if hasattr(e,'code'):
 			print(e.code)
 		if hasattr(e,'reason'):
