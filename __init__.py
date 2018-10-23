@@ -19,6 +19,8 @@ tosDao = TOSDAO(config)
 
 publications = tosDao.getArticles()
 
+count = 0
+
 try:
     for publication in publications:
         print("Fetching keywords for publication: ", publication.title)
@@ -29,9 +31,10 @@ try:
             for key in keywords:
                 print(key)
             tosDao.insertKeyword(keywords, publication.id)
+            count = count+1
 except urllib.error.HTTPError as e:
 		if hasattr(e,'code'):
 			print(e.code)
 		if hasattr(e,'reason'):
 			print(e.reason)
-		print('HTTPError!!!')
+        print("Inserted %s records from publications", int(count))
