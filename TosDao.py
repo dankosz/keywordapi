@@ -54,7 +54,7 @@ class TOSDAO:
                     print("inserting into nodes start: %s, end: %s, type: desc", (int(publication_node.id), int(keyword_node_id)))
                     self.dictCursor.execute("INSERT INTO nodes (start, end, type) VALUES(%s, %s, %s)", (int(publication_node.id), int(keyword_node_id), "desc"))
         except:
-            print "Unexpected error, rolling back:", sys.exc_info()[0]
+            print("Unexpected error, rolling back:", sys.exc_info()[0])
             self.conn.rollback()
             raise
         
