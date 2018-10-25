@@ -22,7 +22,7 @@ publications = tosDao.getArticles()
 count = 0
 
 try:
-    for publication in publications:
+    for publication in publications[30:]:
         print("Fetching keywords for publication: ", publication.title)
         xplore.articleTitle(publication.title)
         articleData = json.load(urllib.request.urlopen(xplore.callAPI(False)))
