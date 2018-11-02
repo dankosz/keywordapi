@@ -23,6 +23,15 @@ class TOSDAO:
             publication = MAPPER.mapRow(row)
             publications.append(publication)
         return publications
+    
+    def getArticlesWithoutKeywords(self):
+        publications = []
+        self.dictCursor.execute("SELECT p.title, kp.keywordid FROM pubinf p LEFT JOIN keywordpubs kp ON p.id=kp.id WHERE kp.id IS NULL")
+        result_set = self.dictCursor.fetchall()
+        for row in result_set:
+            publication = MAPPER.mapRow(row)
+            publications.append(publication)
+        return publications
         
     def insertKeyword(self, keywords, pubinfId):
         try:

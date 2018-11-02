@@ -17,12 +17,12 @@ xplore = XPLORE(config['apikey'])
 #db
 tosDao = TOSDAO(config)
 
-publications = tosDao.getArticles()
+publications = tosDao.getArticlesWithoutKeywords()
 
 count = 0
 
 try:
-    for publication in publications[30:]:
+    for publication in publications:
         print("Fetching keywords for publication: ", publication.title)
         xplore.articleTitle(publication.title)
         articleData = json.load(urllib.request.urlopen(xplore.callAPI(False)))
@@ -35,6 +35,8 @@ try:
 except urllib.error.HTTPError as e:
     if hasattr(e,'code'):
         print(e.code)
+        if (e.code = 403)
+            print("API call limit has reached. Try running it with an other API key or ")
     if hasattr(e,'reason'):
         print(e.reason)
     print("Inserted ", int(count)," records from publications")
