@@ -58,7 +58,7 @@ class TOSDAO:
                 #check if node already exists
                 self.dictCursor.execute("SELECT * FROM nodes WHERE rowid = %s AND type = %s", (int(keywordId), "keyword"))
                 node_set= self.dictCursor.fetchall()
-                if bool(node_set)
+                if bool(node_set):
                     print("keyword node already exists in db: ", keyword)
                     existingKeywordNode = MAPPER.mapRow(node_set[0])
                     keyword_node_id = existingKeywordNode.rowid
