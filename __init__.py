@@ -36,7 +36,9 @@ except urllib.error.HTTPError as e:
     if hasattr(e,'code'):
         print(e.code)
         if (e.code = 403)
-            print("API call limit has reached. Try running it with an other API key or ")
+            print("API call limit has reached. Try running the script with an other API key or tomorrow")
+        if (e.code = 400)
+            print("Bad request! Check the publication title : %s" (publications[count].title) )
     if hasattr(e,'reason'):
         print(e.reason)
     print("Inserted ", int(count)," records from publications")
